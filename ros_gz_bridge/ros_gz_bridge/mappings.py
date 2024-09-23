@@ -47,6 +47,9 @@ MAPPINGS = {
         Mapping('WrenchStamped', 'Wrench'),
         Mapping('Vector3', 'Vector3d'),
     ],
+    'gps_msgs': [
+        Mapping('GPSFix', 'NavSat'),
+    ],
     'nav_msgs': [
         Mapping('Odometry', 'Odometry'),
         Mapping('Odometry', 'OdometryWithCovariance'),
@@ -59,6 +62,7 @@ MAPPINGS = {
         Mapping('Contact', 'Contact'),
         Mapping('Contacts', 'Contacts'),
         Mapping('Entity', 'Entity'),
+        Mapping('EntityWrench', 'EntityWrench'),
         Mapping('Float32Array', 'Float_V'),
         Mapping('GuiCamera', 'GUICamera'),
         Mapping('JointWrench', 'JointWrench'),
