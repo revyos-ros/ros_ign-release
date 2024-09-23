@@ -2,22 +2,27 @@
 Changelog for package ros1_gz_sim_demos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.254.1 (2024-04-08)
---------------------
+0.244.16 (2024-07-22)
+---------------------
 
-0.254.0 (2024-01-08)
---------------------
-
-0.247.0 (2023-11-02)
---------------------
-* Merge branch 'iron' into ahcorde/iron/backport/411
-* Added more topic to the bridge (`#422 <https://github.com/gazebosim/ros_gz/issues/422>`_) (`#423 <https://github.com/gazebosim/ros_gz/issues/423>`_)
-* Fix incorrect subscription on demo (`#405 <https://github.com/gazebosim/ros_gz/issues/405>`_) (`#407 <https://github.com/gazebosim/ros_gz/issues/407>`_)
-  Co-authored-by: Arjo Chakravarty <arjoc@intrinsic.ai>
+0.244.15 (2024-07-03)
+---------------------
+* [backport Humble] Create bridge for GPSFix msg (`#316 <https://github.com/gazebosim/ros_gz//issues/316>`_) (`#538 <https://github.com/gazebosim/ros_gz//issues/538>`_)
+  Co-authored-by: Rousseau Vincent <vincentrou@gmail.com>
 * Contributors: Alejandro Hernández Cordero
 
-0.245.0 (2023-05-23)
---------------------
+0.244.14 (2024-04-08)
+---------------------
+
+0.244.13 (2024-01-23)
+---------------------
+
+0.244.12 (2023-12-13)
+---------------------
+* [backport Humble] Added more topic to the bridge (`#422 <https://github.com/gazebosim/ros_gz/issues/422>`_)
+* Added more topic to the bridge (`#422 <https://github.com/gazebosim/ros_gz/issues/422>`_)
+* Fix incorrect subscription on demo (`#405 <https://github.com/gazebosim/ros_gz/issues/405>`_)
+* Contributors: Alejandro Hernández Cordero, Arjo Chakravarty
 
 0.244.11 (2023-05-23)
 ---------------------
