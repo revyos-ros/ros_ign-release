@@ -32,6 +32,7 @@ The following message types can be bridged for topics:
 | geometry_msgs/msg/TwistStamped              | ignition::msgs::Twist                       |
 | geometry_msgs/msg/TwistWithCovariance       | ignition::msgs::TwistWithCovariance         |
 | geometry_msgs/msg/TwistWithCovarianceStamped| ignition::msgs::TwistWithCovariance         |
+| gps_msgs/GPSFix                             | ignition::msgs::NavSat                      |
 | nav_msgs/msg/Odometry                       | ignition::msgs::Odometry                    |
 | nav_msgs/msg/Odometry                       | ignition::msgs::OdometryWithCovariance      |
 | rcl_interfaces/msg/ParameterValue           | ignition::msgs::Any                         |
@@ -40,6 +41,7 @@ The following message types can be bridged for topics:
 | ros_gz_interfaces/msg/Contacts              | ignition::msgs::Contacts                    |
 | ros_gz_interfaces/msg/Dataframe             | ignition::msgs::Dataframe                   |
 | ros_gz_interfaces/msg/Entity                | ignition::msgs::Entity                      |
+| ros_gz_interfaces/msg/EntityWrench          | ignition::msgs::EntityWrench                  |
 | ros_gz_interfaces/msg/Float32Array          | ignition::msgs::Float_V                     |
 | ros_gz_interfaces/msg/GuiCamera             | ignition::msgs::GUICamera                   |
 | ros_gz_interfaces/msg/JointWrench           | ignition::msgs::JointWrench                 |
