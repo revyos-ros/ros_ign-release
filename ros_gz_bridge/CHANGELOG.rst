@@ -2,6 +2,29 @@
 Changelog for package ros_gz_bridge
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.244.16 (2024-07-22)
+---------------------
+* Add support for gz.msgs.EntityWrench (base branch: ros2) (backport `#573 <https://github.com/gazebosim/ros_gz/issues/573>`_) (`#575 <https://github.com/gazebosim/ros_gz/issues/575>`_)
+  * Add support for gz.msgs.EntityWrench (base branch: ros2) (`#573 <https://github.com/gazebosim/ros_gz/issues/573>`_)
+  (cherry picked from commit f9afb69d1163633dd978024bb7271a28cf7b551a)
+  # Conflicts:
+  #	ros_gz_bridge/README.md
+  #	ros_gz_bridge/test/utils/gz_test_msg.hpp
+  * Fixed merge
+  * Update ros_gz_bridge/README.md
+  Co-authored-by: Addisu Z. Taddese <addisu@openrobotics.org>
+  ---------
+  Co-authored-by: Victor T. Noppeney <Vtn21@users.noreply.github.com>
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+  Co-authored-by: Addisu Z. Taddese <addisu@openrobotics.org>
+* Contributors: mergify[bot]
+
+0.244.15 (2024-07-03)
+---------------------
+* [backport Humble] Create bridge for GPSFix msg (`#316 <https://github.com/gazebosim/ros_gz//issues/316>`_) (`#538 <https://github.com/gazebosim/ros_gz//issues/538>`_)
+  Co-authored-by: Rousseau Vincent <vincentrou@gmail.com>
+* Contributors: Alejandro Hernández Cordero
+
 0.244.14 (2024-04-08)
 ---------------------
 * Added conversion for Detection3D and Detection3DArray (`#523 <https://github.com/gazebosim/ros_gz/issues/523>`_) (`#526 <https://github.com/gazebosim/ros_gz/issues/526>`_)
