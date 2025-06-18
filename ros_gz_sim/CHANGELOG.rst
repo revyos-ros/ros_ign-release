@@ -2,6 +2,32 @@
 Changelog for package ros_gz_sim
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.15 (2025-06-12)
+-------------------
+* OS agnostic 'which' command (`#762 <https://github.com/gazebosim/ros_gz/issues/762>`_)
+* ros_gz_sim: Added support for passing initial_sim_time to Gazebo. (backport `#756 <https://github.com/gazebosim/ros_gz/issues/756>`_) (`#759 <https://github.com/gazebosim/ros_gz/issues/759>`_)
+* Contributors: Griffin Tabor, mergify[bot]
+
+1.0.14 (2025-05-26)
+-------------------
+* Fix debug_env (`#747 <https://github.com/gazebosim/ros_gz/issues/747>`_) (`#749 <https://github.com/gazebosim/ros_gz/issues/749>`_)
+* Contributors: mergify[bot]
+
+1.0.13 (2025-05-23)
+-------------------
+* Log environment variables with which gazebo was launched (`#680 <https://github.com/gazebosim/ros_gz/issues/680>`_) (`#744 <https://github.com/gazebosim/ros_gz/issues/744>`_)
+* Contributors: mergify[bot]
+
+1.0.12 (2025-05-06)
+-------------------
+* Spawn, set pose and delete entities using ROS 2 (backport `#705 <https://github.com/gazebosim/ros_gz/issues/705>`_) (`#733 <https://github.com/gazebosim/ros_gz/issues/733>`_)
+* Added codespell pre-commit hook. (`#721 <https://github.com/gazebosim/ros_gz/issues/721>`_) (`#722 <https://github.com/gazebosim/ros_gz/issues/722>`_)
+* Add pre commit (`#718 <https://github.com/gazebosim/ros_gz/issues/718>`_) (`#719 <https://github.com/gazebosim/ros_gz/issues/719>`_)
+* Contributors: mergify[bot]
+
+1.0.11 (2025-03-21)
+-------------------
+
 1.0.10 (2025-02-24)
 -------------------
 
