@@ -1,3 +1,33 @@
+## ros_gz (jazzy) - 1.0.15-1
+
+The packages in the `ros_gz` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy ros_gz --override-release-repository-push-url git@github.com:revyos-ros/ros_ign-release.git` on `Wed, 18 Jun 2025 07:44:03 -0000`
+
+These packages were released:
+- `ros_gz`
+- `ros_gz_bridge`
+- `ros_gz_image`
+- `ros_gz_interfaces`
+- `ros_gz_sim`
+- `ros_gz_sim_demos`
+- `test_ros_gz_bridge`
+
+Version of package(s) in repository `ros_gz`:
+
+- upstream repository: https://github.com/gazebosim/ros_gz
+- release repository: https://github.com/revyos-ros/ros_ign-release.git
+- rosdistro version: `1.0.14-1`
+- old version: `1.0.10-2`
+- new version: `1.0.15-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## ros_gz (jazzy) - 1.0.10-2
 
 The packages in the `ros_gz` repository were released into the `jazzy` distro by running `/root/venv/bin/bloom-release -r jazzy ros_gz --override-release-repository-push-url git@github.com:revyos-ros/ros_ign-release.git` on `Thu, 06 Mar 2025 13:50:44 -0000`
